@@ -16,3 +16,8 @@ Feel free to contact the authors is help is required.
 - scripts/paper_part1v2.R:  analysis for part of the paper related to associations between age, disease and methylation changes at TEs in humans, excluing predictors.
 - scripts/paper_part2v2.R:  analysis related to age/disease predictors in humans.
 - scripts/paper_part3.R:  analysis related to the mouse RRBS clock.
+
+### Version info 
+The original analysis was performed in the following environment:
+- OS: Red Hat Enterprise Linux Server 7.9
+- R: version 4.2.2 (2022-10-31)
