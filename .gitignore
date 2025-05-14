@@ -1,4 +1,5 @@
 data/annotation/full_probe_info_450.csv
 data/annotation/short_probe_info_450.csv
+data/annotation/GRCh37_repeats.saf
 data/infinium
 data/processed

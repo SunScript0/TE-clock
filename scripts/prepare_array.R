@@ -12,11 +12,12 @@ library(stringi)
 setwd("/scratch/fmorandi/internal/RE_clock/")
 
 paths = list()
-paths$raw = "/scratch/fmorandi/internal/RE_clock/data/infinium"
-paths$processed = "/scratch/fmorandi/internal/RE_clock/data/processed"
-paths$probe_info = "/scratch/fmorandi/internal/RE_clock/data/annotation/short_probe_info_450.csv"
-paths$re_info = "/scratch/fmorandi/external/references/GRCh37-hg19-Ensembl/RepeatMaskerOut/GRCh37_repeats.saf"
-paths$re_ids = "/scratch/fmorandi/internal/RE_clock/data/annotation/GRCh37_repIds.csv"
+paths$raw = "./data/annotation/infinium"
+paths$processed = "./data/annotation/processed"
+paths$probe_info = "./data/annotation/short_probe_info_450.csv"
+# paths$re_info = "/scratch/fmorandi/external/references/GRCh37-hg19-Ensembl/RepeatMaskerOut/GRCh37_repeats.saf"
+paths$re_info = "./data/annotation/GRCh37_repeats.saf"
+paths$re_ids = "./data/annotation/GRCh37_repIds.csv"
 
 ##### GSE40279 #####
 

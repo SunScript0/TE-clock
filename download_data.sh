@@ -8,6 +8,8 @@ mkdir -p data/processed
 wget https://webdata.illumina.com/downloads/productfiles/humanmethylation450/humanmethylation450_15017482_v1-2.csv -O data/annotation/full_probe_info_450.csv
 tail -n +8 data/annotation/full_probe_info_450.csv | head -n -851 > data/annotation/short_probe_info_450.csv
 
+gunzip data/annotation/GRCh37_repeats.saf.gz
+
 # Read the TSV file line by line
 while IFS=$'\t' read -r col1 col2 col3
 do

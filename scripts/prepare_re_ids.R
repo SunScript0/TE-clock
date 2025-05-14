@@ -32,8 +32,7 @@ define_rep_ids = function(saf_path, class_order) {
 
 #### GRCh37 ####
 
-re_ids = define_rep_ids("/scratch/fmorandi/external/references/GRCh37-hg19-Ensembl/RepeatMaskerOut/GRCh37_repeats.saf",
-                        class_order)
+re_ids = define_rep_ids("./data/annotation/GRCh37_repIds.csv", class_order)
 write.csv(re_ids, "./data/annotation/GRCh37_repIds.csv")
 
 #### GRCm38 ####
